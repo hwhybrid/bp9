@@ -1,0 +1,40 @@
+Research List:  Zalando, Netflix, and Spotify.
+
+***Things to note: Prominence of Java, Python, and AWS for language and infrastructure.
+
+Company 1: Zalando
+
+Source: https://opensource.zalando.com/tech-radar/ 
+
+Infrastructure: AWS (CLoudFormation, Sagemaker, CloudFront), Kubernetes, Docker
+
+Datastores: AWS (S3, DynamoDB), Elasticsearch, PostresSQL, Redis
+
+Languages: Go, GraphQL, Java, JavaScript, Kotlin, Python, Scala, Swift, TypeScript, OpenAPI(Swagger)
+
+
+Company 2: Netflix
+
+Source(s): 
+1. https://netflix.github.io/ 
+2. https://maddevs.io/blog/tech-stack-of-prominent-companies/
+
+Infrastructure: AWS (ElasticvMapReduce, EC2),  Presto, Cassandra, Gradle
+
+Datastores: AWS (DynamoDB, RDS, S3), MySQL, ORACLE, PostresSQL
+
+Languages: Java, Python, NodeJS, React 
+
+
+Company 3: Spotify
+
+Source(s): 
+1. https://maddevs.io/blog/tech-stack-of-prominent-companies/ 
+2. https://stackshare.io/spotify/spotify 
+
+Infrastructure: NGINX, Google Cloud, AWS CloudFront, Apache Storm, Docker
+
+Datastores: AWS S3, Google Cloud Big Table, Hadoop, Google Big Query, PostresSQL, DataDog
+
+Languages: Java, Python, Bootstrap
+
