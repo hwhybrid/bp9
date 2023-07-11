@@ -60,3 +60,11 @@ img {
 	width: 500px;
 	height: auto;
 }
+
+#rouletteButton {
+	background-color: rgb(190, 211, 218);
+	color: slategrey;
+	width: 200px;
+
+	
+}
