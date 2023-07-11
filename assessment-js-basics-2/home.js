@@ -77,11 +77,12 @@ const canWeDeliver = (zipCode) => {
 
 const canWeDeliverTwo = (zipCode) => {
     for (i = 0; i < deliveryAreaZipCodes.length; i++) {
-        if ((deliveryAreaZipCodes[i] = zipCode)) {
+        if ((deliveryAreaZipCodes[i] === zipCode)) {
             console.log(`You're in our delivery zone!`);
-        } else {
-            console.log(`Sorry, we can't deliver to that address`);
-        }
+        } 
+    
+	console.log(`Sorry, we can't deliver to that address`);
+        
     }
 };
 
