@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Welcome to the Neighborhood!</title>
+        <link href="styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <nav>
+            <ol>
+                <li class="crumb"><a href="./home.html">Home</a></li>
+                <li class="crumb"><a href="./profile.html">Profile</a></li>
+                <li class="crumb"><a href="./about.html">About</a></li>
+                <li class="crumb"><a href="./nyc.html">NYC</a></li>
+            </ol>
+        </nav>
+
+        <h1>I ❤️️ New York 🗽</h1>
+
+        <p>
+            New York will always hold a special place in my heart.
+            <br />
+            <br />
+            There's much to be said about the magic and mythos of New York City.
+            Regardless of one's background, tastes, or interests, there's
+            something for everyone.
+        </p>
+        <div>
+            <img
+                id="nyc-pic"
+                src="/assessment-front-end-web/images/michael-discenza-5omwAMDxmkU-unsplash.jpg"
+            />
+        </div>
+
+        <section>
+            <strong
+                >Let's dive in a little deeper. Select an activity below for an
+                adventure with a New York City twist:</strong
+            >
+            <br />
+            <br />
+
+            <form name="explore-ny" id="explore-ny">
+                <strong>Explore NYC:</strong>
+                <select name="activity" id="activity">
+                    <option>
+                        <placeholder>Make a selection</placeholder>
+                    </option>
+                    <option>Music</option>
+                    <option>Food & Beverage</option>
+                    <option>Art & History</option>
+                    <option>Play</option>
+                    <option>Literature</option>
+                </select>
+                <button id="lets-go">Let's go!</button>
+            </form>
+        </section>
+
+        <script src="nyc.js"></script>
+    </body>
+</html>

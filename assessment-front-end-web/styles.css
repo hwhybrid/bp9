@@ -32,10 +32,10 @@ a:visited {
 }
 
 
-input {
-	/* display: block; */
+/* input {
+	display: block;
 	
-}
+} */
 
 img {
 	width: 200px;
@@ -54,4 +54,9 @@ img {
 	color: slategrey;
 	width: 500px;
 	
+}
+
+#nyc-pic {
+	width: 500px;
+	height: auto;
 }
