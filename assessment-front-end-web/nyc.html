@@ -44,7 +44,7 @@
                     Let's play a game! How about restaurant roulette?
                 </strong>
             </p>
-            <h3 id="suggestion">Restaurant Suggestion: </h3>
+            <h3 id="suggestion">Restaurant Suggestion:</h3>
             <button id="rouletteButton">Click to play!</button>
         </section>
         <br />
@@ -58,15 +58,19 @@
 
             <form name="explore-ny" id="explore-ny">
                 <strong>Explore NYC:</strong>
-                <select name="activity" id="activity">
+                <select name="activity">
                     <option>
                         <placeholder>Make a selection</placeholder>
                     </option>
-                    <option>Music</option>
-                    <option>Food & Beverage</option>
-                    <option>Art & History</option>
-                    <option>Play</option>
-                    <option>Literature</option>
+                    <option class="activity" id="music">Music</option>
+                    <option class="activity" id="food-drink">
+                        Food & Beverage
+                    </option>
+                    <option class="activity" id="art-history">
+                        Art & History
+                    </option>
+                    <option class="activity" id="play">Play</option>
+                    <option class="activity" id="literature">Literature</option>
                 </select>
                 <button id="lets-go">Let's go!</button>
             </form>
