@@ -6,6 +6,12 @@
         <title>Profile Page</title>
 
         <link href="styles.css" rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
         <nav>
@@ -34,7 +40,7 @@
         <div>
             <h3>Skills (Two truths and a lie! Can you guess?)</h3>
 
-            <label for="amateurContortionist">
+            <label class="skill" for="amateurContortionist">
                 <input
                     id="lieOption"
                     type="radio"
@@ -45,7 +51,7 @@
             </label>
             <br />
 
-            <label>
+            <label class="skill" for="amateurHistorian">
                 <input
                     id="lieOption"
                     type="radio"
@@ -56,7 +62,7 @@
             </label>
             <br />
 
-            <label>
+            <label class="skill" for="amateurPolyglot">
                 <input
                     id="lieOption"
                     type="radio"
@@ -71,6 +77,10 @@
 
             <button id="check-guess">Check your guess!</button>
         </div>
+        <br />
+        <button class="favourite" id="color">My Favorite Color</button>
+        <button class="favourite" id="place">My Favorite Place</button>
+        <button class="favourite" id="ritual">My Favorite Ritual</button>
 
         <script src="profile.js"></script>
     </body>
