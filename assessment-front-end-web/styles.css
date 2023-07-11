@@ -49,7 +49,9 @@ img {
 
 } */
 
-.favourite {
-	background-color: slategray;
-	color: aliceblue;
+.favorite {
+	background-color: lightgoldenrodyellow;
+	color: slategrey;
+	width: 500px;
+	
 }
